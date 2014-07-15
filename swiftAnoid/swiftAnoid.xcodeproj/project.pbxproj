@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53D31BAD1975A17300543F63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D31BAC1975A17300543F63 /* AppDelegate.swift */; };
+		53D31BAF1975A17300543F63 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53D31BAE1975A17300543F63 /* GameScene.sks */; };
+		53D31BB11975A17300543F63 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D31BB01975A17300543F63 /* GameScene.swift */; };
+		53D31BB31975A17300543F63 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D31BB21975A17300543F63 /* GameViewController.swift */; };
+		53D31BB61975A17300543F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D31BB41975A17300543F63 /* Main.storyboard */; };
+		53D31BB81975A17300543F63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D31BB71975A17300543F63 /* Images.xcassets */; };
+		53D31BC41975A17400543F63 /* swiftAnoidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D31BC31975A17400543F63 /* swiftAnoidTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53D31BBE1975A17300543F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53D31B9F1975A17300543F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D31BA61975A17300543F63;
+			remoteInfo = swiftAnoid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53D31BA71975A17300543F63 /* swiftAnoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftAnoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D31BAB1975A17300543F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D31BAC1975A17300543F63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53D31BAE1975A17300543F63 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		53D31BB01975A17300543F63 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		53D31BB21975A17300543F63 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		53D31BB51975A17300543F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53D31BB71975A17300543F63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53D31BBD1975A17300543F63 /* swiftAnoidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftAnoidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D31BC21975A17300543F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D31BC31975A17400543F63 /* swiftAnoidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftAnoidTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53D31BA41975A17300543F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D31BBA1975A17300543F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53D31B9E1975A17300543F63 = {
+			isa = PBXGroup;
+			children = (
+				53D31BA91975A17300543F63 /* swiftAnoid */,
+				53D31BC01975A17300543F63 /* swiftAnoidTests */,
+				53D31BA81975A17300543F63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53D31BA81975A17300543F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53D31BA71975A17300543F63 /* swiftAnoid.app */,
+				53D31BBD1975A17300543F63 /* swiftAnoidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53D31BA91975A17300543F63 /* swiftAnoid */ = {
+			isa = PBXGroup;
+			children = (
+				53D31BAC1975A17300543F63 /* AppDelegate.swift */,
+				53D31BAE1975A17300543F63 /* GameScene.sks */,
+				53D31BB01975A17300543F63 /* GameScene.swift */,
+				53D31BB21975A17300543F63 /* GameViewController.swift */,
+				53D31BB41975A17300543F63 /* Main.storyboard */,
+				53D31BB71975A17300543F63 /* Images.xcassets */,
+				53D31BAA1975A17300543F63 /* Supporting Files */,
+			);
+			path = swiftAnoid;
+			sourceTree = "<group>";
+		};
+		53D31BAA1975A17300543F63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53D31BAB1975A17300543F63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53D31BC01975A17300543F63 /* swiftAnoidTests */ = {
+			isa = PBXGroup;
+			children = (
+				53D31BC31975A17400543F63 /* swiftAnoidTests.swift */,
+				53D31BC11975A17300543F63 /* Supporting Files */,
+			);
+			path = swiftAnoidTests;
+			sourceTree = "<group>";
+		};
+		53D31BC11975A17300543F63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53D31BC21975A17300543F63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53D31BA61975A17300543F63 /* swiftAnoid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D31BC71975A17400543F63 /* Build configuration list for PBXNativeTarget "swiftAnoid" */;
+			buildPhases = (
+				53D31BA31975A17300543F63 /* Sources */,
+				53D31BA41975A17300543F63 /* Frameworks */,
+				53D31BA51975A17300543F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftAnoid;
+			productName = swiftAnoid;
+			productReference = 53D31BA71975A17300543F63 /* swiftAnoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53D31BBC1975A17300543F63 /* swiftAnoidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D31BCA1975A17400543F63 /* Build configuration list for PBXNativeTarget "swiftAnoidTests" */;
+			buildPhases = (
+				53D31BB91975A17300543F63 /* Sources */,
+				53D31BBA1975A17300543F63 /* Frameworks */,
+				53D31BBB1975A17300543F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D31BBF1975A17300543F63 /* PBXTargetDependency */,
+			);
+			name = swiftAnoidTests;
+			productName = swiftAnoidTests;
+			productReference = 53D31BBD1975A17300543F63 /* swiftAnoidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53D31B9F1975A17300543F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Juan Pedro Lozano";
+				TargetAttributes = {
+					53D31BA61975A17300543F63 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					53D31BBC1975A17300543F63 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 53D31BA61975A17300543F63;
+					};
+				};
+			};
+			buildConfigurationList = 53D31BA21975A17300543F63 /* Build configuration list for PBXProject "swiftAnoid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53D31B9E1975A17300543F63;
+			productRefGroup = 53D31BA81975A17300543F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53D31BA61975A17300543F63 /* swiftAnoid */,
+				53D31BBC1975A17300543F63 /* swiftAnoidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53D31BA51975A17300543F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D31BB81975A17300543F63 /* Images.xcassets in Resources */,
+				53D31BAF1975A17300543F63 /* GameScene.sks in Resources */,
+				53D31BB61975A17300543F63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D31BBB1975A17300543F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53D31BA31975A17300543F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D31BB11975A17300543F63 /* GameScene.swift in Sources */,
+				53D31BB31975A17300543F63 /* GameViewController.swift in Sources */,
+				53D31BAD1975A17300543F63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D31BB91975A17300543F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D31BC41975A17400543F63 /* swiftAnoidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53D31BBF1975A17300543F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D31BA61975A17300543F63 /* swiftAnoid */;
+			targetProxy = 53D31BBE1975A17300543F63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53D31BB41975A17300543F63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D31BB51975A17300543F63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53D31BC51975A17400543F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53D31BC61975A17400543F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53D31BC81975A17400543F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = swiftAnoid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53D31BC91975A17400543F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = swiftAnoid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		53D31BCB1975A17400543F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/swiftAnoid.app/swiftAnoid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = swiftAnoidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		53D31BCC1975A17400543F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/swiftAnoid.app/swiftAnoid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = swiftAnoidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53D31BA21975A17300543F63 /* Build configuration list for PBXProject "swiftAnoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D31BC51975A17400543F63 /* Debug */,
+				53D31BC61975A17400543F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D31BC71975A17400543F63 /* Build configuration list for PBXNativeTarget "swiftAnoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D31BC81975A17400543F63 /* Debug */,
+				53D31BC91975A17400543F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53D31BCA1975A17400543F63 /* Build configuration list for PBXNativeTarget "swiftAnoidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D31BCB1975A17400543F63 /* Debug */,
+				53D31BCC1975A17400543F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53D31B9F1975A17300543F63 /* Project object */;
+}
