@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "53D31BA61975A17300543F63"
-               BuildableName = "swiftAnoid.app"
-               BlueprintName = "swiftAnoid"
-               ReferencedContainer = "container:swiftAnoid.xcodeproj">
+               BuildableName = "anoid.app"
+               BlueprintName = "anoid"
+               ReferencedContainer = "container:anoid.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "53D31BBC1975A17300543F63"
-               BuildableName = "swiftAnoidTests.xctest"
-               BlueprintName = "swiftAnoidTests"
-               ReferencedContainer = "container:swiftAnoid.xcodeproj">
+               BuildableName = "anoidTests.xctest"
+               BlueprintName = "anoidTests"
+               ReferencedContainer = "container:anoid.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53D31BA61975A17300543F63"
-            BuildableName = "swiftAnoid.app"
-            BlueprintName = "swiftAnoid"
-            ReferencedContainer = "container:swiftAnoid.xcodeproj">
+            BuildableName = "anoid.app"
+            BlueprintName = "anoid"
+            ReferencedContainer = "container:anoid.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53D31BA61975A17300543F63"
-            BuildableName = "swiftAnoid.app"
-            BlueprintName = "swiftAnoid"
-            ReferencedContainer = "container:swiftAnoid.xcodeproj">
+            BuildableName = "anoid.app"
+            BlueprintName = "anoid"
+            ReferencedContainer = "container:anoid.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53D31BA61975A17300543F63"
-            BuildableName = "swiftAnoid.app"
-            BlueprintName = "swiftAnoid"
-            ReferencedContainer = "container:swiftAnoid.xcodeproj">
+            BuildableName = "anoid.app"
+            BlueprintName = "anoid"
+            ReferencedContainer = "container:anoid.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
