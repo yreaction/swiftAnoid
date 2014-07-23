@@ -76,7 +76,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate  {
         addBottomEdge(self.size)
     }
     
-    func removeBrick(theBrick:SKNode) {
+    func removeBrick(theBrick:SKNode!) {
         let brick:SKShapeNode = theBrick as SKShapeNode
         brick.fillColor = SKColor.redColor()
         let explodeParticle = SKEmitterNode(fileNamed: "spark")
@@ -85,11 +85,16 @@ class GameScene: SKScene,SKPhysicsContactDelegate  {
         explodeParticle.position = CGPointMake (theBrick.position.x,CGRectGetMinY(theBrick.frame))
 
         let brickExplosion = SKAction.sequence([SKAction.scaleBy(0.2, duration: 0.1), SKAction.scaleBy(-1, duration: 0.2)])
+        
         theBrick.runAction(brickExplosion, completion: {() -> Void in
             theBrick.removeFromParent()
+            if self.brickCount == 0 {
+                let scene = GameScene(size: self.size)
+                self.view.presentScene(scene)
+            }
             })
         --brickCount
-        ballNode.physicsBody.applyImpulse(CGVector(25/brickCount,-25/brickCount))
+        ballNode.physicsBody.applyImpulse(CGVector(8/brickCount,-8/brickCount))
     }
     
     func didBeginContact(contact: SKPhysicsContact!) {
@@ -109,7 +114,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate  {
         }
         if notTheBall?.categoryBitMask == gameCollCategories.bottomEdgeCategory.toRaw() {
             let endScene = EndScene(size: self.size)
-            self.view.presentScene(endScene, transition: SKTransition.doorsCloseHorizontalWithDuration(0.2))
+            self.view.presentScene(endScene, transition: SKTransition.doorsCloseHorizontalWithDuration(0.35))
         }
     }
     
@@ -217,10 +222,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate  {
     
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
-        if brickCount == 0 {
-            let scene = GameScene(size: self.size)
-            self.view.presentScene(scene)
-        }
+    
       
     }
     

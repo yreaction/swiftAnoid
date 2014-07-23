@@ -16,15 +16,18 @@ class EndScene: SKScene {
         endGameLabel.fontName  = "Futura Medium"
         endGameLabel.fontSize = 50
         endGameLabel.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame))
-        
-        
-        
         self.addChild(endGameLabel)
         
-
+        let playAgainLabel = SKLabelNode(text: "Tap for play again")
+        playAgainLabel.fontColor = SKColor.grayColor()
+        playAgainLabel.fontName = endGameLabel.fontName
+        playAgainLabel.fontSize = 20
+        playAgainLabel.position = CGPointMake(CGRectGetMidX(self.frame), endGameLabel.position.y - playAgainLabel.frame.size.height)
+        self.addChild(playAgainLabel)
     }
+    
     override func touchesBegan(touches: NSSet!, withEvent event: UIEvent!) {
         let repeatGame = GameScene(size: self.size)
-        self.view.presentScene(repeatGame, transition: SKTransition.doorsOpenHorizontalWithDuration(0.3))
+        self.view.presentScene(repeatGame, transition: SKTransition.doorsOpenHorizontalWithDuration(0.35))
     }
 }
